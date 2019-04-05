@@ -1,0 +1,16 @@
+{
+  "name": "ttim-node",
+  "version": "0.0.1",
+  "description": "Take a collection of terms and associate wikimedia pictures to them",
+  "main": "script.js",
+  "scripts": {
+    "start": "node script.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Matthias Sieber <matthiasksieber@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "md5": "^2.2.1",
+    "node-fetch": "^2.3.0"
+  }
+}
